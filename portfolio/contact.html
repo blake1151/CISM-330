@@ -6,7 +6,7 @@
 -->
 <html lang="en">
 <head>
-	<title>About Me</title>
+	<title>Contact Information</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -14,10 +14,6 @@
 <body>
 
 <header>
-	<figure>
-		<img src="images/blake.png" alt="image of Blake">
-		<figcaption>Everyone deserves to experience the gift that is music</figcaption>
-	</figure>
 	<h2 id="music">&#x1D11E;Music is for Everyone&#x1D11E;</h2>
 	<h1 id="name">Name: Blake Cornell</h1>
 </header>
@@ -25,15 +21,58 @@
 <nav>
 	<ul>
 		<li><a href="index.html">Main</a></li>
-		<li><a href="about.html">About Me</a></li>
-		<li><a href="contact.html">Contact Information</a></li>
 		<li><a href="piano.html">Piano</a></li>
 		<li><a href="scales.html">Scales</a></li>
+		<li><a href="about.html">About Me</a></li>
+		<li><a href="contact.html" class="active">Contact Information</a></li>
 	</ul>
 </nav>
 
 <!--summary of what music is and how it is used-->
 <main>
+	<div id="form">
+		<h5>Complete the short survey to let us know how we can assist in helping others learn scales!</h5>
+		<form>
+			<fieldset>
+				<label for="Name">Name:</label>
+				<input type="text" name="Name" id="Name" required><br>
+				
+				<label for="positive">What did you like about the website experience?</label>
+				<input type="text" name="positive" id="positive" required><br>
+				
+				<label for="negative">What was a negative experience you had, if any?</label>
+				<input type="text" name="negative" id="negative">
+			</fieldset>	
+			<fieldset>
+					<p>Rate your likeliness to share this with a friend:</p>
+				
+				<label for="1">1</label>
+				<input type="radio" name="rating" id="1" required>
+				<label for="2">2</label>
+				<input type="radio" name="rating" id="2" required>
+				<label for="3">3</label>
+				<input type="radio" name="rating" id="3" required>
+				<label for="4">4</label>
+				<input type="radio" name="rating" id="4" required>
+				<label for="5">5</label>
+				<input type="radio" name="rating" id="5" required>
+			</fieldset>
+			<fieldset>
+				<p>Do you want to learn any other instruments?</p>
+				<label for="yes">Yes</label>
+				<input type="radio" name="instruments" id="yes" required>
+				<label for="no">No</label>
+				<input type="radio" name="instruments" id="no" required>
+				<label for="maybe">Maybe</label>
+				<input type="radio" name="instruments" id="maybe" required>
+				<label for="unsure">Still figuring it out</label>
+				<input type="radio" name="instruments" id="unsure" required>
+			</fieldset>
+			<fieldset>
+				<input type="submit" id="submit" value="Submit" class="btn">
+			</fieldset>
+		</form>
+	</div>
 	<div id="contact">
 		<p>Phone Number:<span class="color-one">7068896879</span></p>
 		<p>Email Address:<a href="mailto:bcornell268700@students.point.edu" class="link">bcornell268700@students.point.edu</a></p>
@@ -46,7 +85,7 @@
 
 
 <footer>
-<p><a href="mailto:bcornell268700@students.point.edu">bcornell268700@students.point.edu</a></p>
+<p id="footer"><a href="mailto:bcornell268700@students.point.edu" class="link">bcornell268700@students.point.edu</a></p>
 </footer>
 
 </body>
