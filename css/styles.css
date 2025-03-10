@@ -228,7 +228,7 @@ table, caption {
 /*Style rules for footer*/
 
 #footer {
-	background-color:white;
+	background-color:black;
 	display:flex;
 	justify-content:space-between;
 	align-content:center;
