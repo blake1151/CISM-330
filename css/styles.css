@@ -125,7 +125,7 @@ nav li a {
 
 /*Style rules for contact*/
 .link {
-	color:#4169e1;
+	color:#1E47C2;
 	font-weight:bold;
 	text-decoration:none;
 }
@@ -228,7 +228,7 @@ table, caption {
 /*Style rules for footer*/
 
 #footer {
-	background-color:black;
+	background-color:white;
 	display:flex;
 	justify-content:space-between;
 	align-content:center;
